@@ -11,7 +11,7 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "Price Compare App",
+  title: "Koom Mai?",
   description: "Find the best value for your money instantly by comparing price per unit.",
   icons: {
     icon: `${publicBasePath}/logo.png`,

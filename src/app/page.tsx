@@ -407,7 +407,7 @@ export default function PriceCompareApp() {
               <div className="absolute -inset-1 bg-linear-to-r from-blue-100 to-indigo-100 rounded-[2.2rem] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <Image 
                 src={`${publicBasePath}/logo.png`} 
-                alt="Price Compare Logo" 
+                alt="Koom Mai Logo" 
                 width={80} 
                 height={80} 
                 className="relative w-20 h-20 rounded-4xl shadow-xl border-4 border-white ring-1 ring-slate-100" 
