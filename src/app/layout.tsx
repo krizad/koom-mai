@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
 
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const kanit = Kanit({
   variable: "--font-kanit",
   subsets: ["thai", "latin"],
@@ -12,7 +14,7 @@ export const metadata: Metadata = {
   title: "Price Compare App",
   description: "Find the best value for your money instantly by comparing price per unit.",
   icons: {
-    icon: "/logo.png",
+    icon: `${publicBasePath}/logo.png`,
   },
 };
 

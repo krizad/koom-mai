@@ -4,6 +4,8 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Plus, Trash2, RotateCcw, TrendingDown, Tag, Hash, CheckCircle2, LayoutGrid, ChevronDown, Package, Equal, BookmarkPlus, History, Undo2, Clock3, X } from "lucide-react";
 
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 type UnitInfo = { label: string; multiplier: number };
 type CategoryInfo = {
   label: string;
@@ -404,7 +406,7 @@ export default function PriceCompareApp() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-linear-to-r from-blue-100 to-indigo-100 rounded-[2.2rem] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <Image 
-                src="/logo.png" 
+                src={`${publicBasePath}/logo.png`} 
                 alt="Price Compare Logo" 
                 width={80} 
                 height={80} 
