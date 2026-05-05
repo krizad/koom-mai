@@ -1,6 +1,6 @@
-# คูณไม้ (Koom-Mai) — Price Compare
+# คุ้มมั้ย (Koom-Mai) — Price Compare
 
-> เว็บแอปเปรียบเทียบราคาต่อหน่วย ช่วยให้ตัดสินใจซื้อของได้ดีขึ้น — สร้างด้วย Next.js, Tailwind CSS และ deploy บน GitHub Pages ฟรี
+> เว็บแอปเปรียบเทียบราคาต่อหน่วย ตอบคำถาม "ซื้ออันไหนคุ้มกว่า?" — สร้างด้วย Next.js, Tailwind CSS และ deploy บน GitHub Pages ฟรี
 
 **🌐 Live demo: [https://krizad.github.io/koom-mai/](https://krizad.github.io/koom-mai/)**
 
