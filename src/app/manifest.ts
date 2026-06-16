@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Koom Mai',
     short_name: 'Koom Mai',
     description: 'Koom Mai Application',
-    start_url: '/',
+    start_url: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/`,
     display: 'standalone',
     background_color: '#ffffff',
     theme_color: '#000000',
