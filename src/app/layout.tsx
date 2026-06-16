@@ -13,8 +13,10 @@ const kanit = Kanit({
 export const metadata: Metadata = {
   title: "Koom Mai?",
   description: "Find the best value for your money instantly by comparing price per unit.",
+  manifest: `${publicBasePath}/manifest.webmanifest`,
   icons: {
     icon: `${publicBasePath}/logo.png`,
+    apple: `${publicBasePath}/logo.png`,
   },
 };
 
